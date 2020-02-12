@@ -1,0 +1,272 @@
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="style.css" rel="stylesheet" />
+  <link href="/common.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="/static/fonts/gilroy.css" />
+  <link rel="shortcut icon" href="/static/images/favicon.ico">
+  <title>Моё портфолио</title>
+</head>
+
+<body>
+  @@include('header/index.html')
+  <section class="input-data" id="input-data">
+    <div class="container">
+      <div class="input-data__info">
+        <h1 class="input-data__title">
+          Smirnova Anastasia
+        </h1>
+        <div class="input-data__subtitle">
+          Frontend-developer
+          23 years old, Tolyatti
+        </div>
+        <div class="input-data__language-switching">
+          <button class="input-data__switch">ру</button>
+          <span class="input-data__delimiter">I</span>
+          <button class="input-data__switch input-data__switch_active">eng</button>
+        </div>
+      </div>
+      <picture>
+        <source srcset="static/images/mobil.png" media="(max-width: 375px)"> 
+        <source srcset="static/images/main-desktop.png" media="(max-width: 768px)"> 
+          <img src="static/images/main-photo.png" class="input-data__photo">
+      </picture>    
+    </div>
+  </section>
+  <section class="about-me" id="about-me">
+    <div class="container">
+      <h2 class="about-me__title">
+        About me
+      </h2>
+      <div class="about-me__message about-me__message__one">
+        Hi, I’m Anastasia - front-end developer from Togliatti. I like to create both simple single-page, cross-browser
+        and responsive sites, as well as complex web applications on React.
+      </div>
+      <div class="about-me__message about-me__message__two">
+        I studied at HTML Academy, my husband (front-end developer) helps me with training and as a result, I create
+        interesting and quality sites.
+      </div>
+      <div class="about-me__message about-me__message__three">
+        I ready to implement excellent projects with wonderful people. Ready for employment in the office, remote work
+        or for small freelance orders.
+      </div>
+    </div>
+  </section>
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="skills__title">
+        Skills
+      </h2>
+      <div class="skills__subtitle">
+        I work in such programs as
+      </div>
+      <ul class="clean-point skills__items">
+        <li class="skills__item">
+          <img class="skills__item-icon" src="static/images/icon-1.png" alt="Figma">
+          <div class="skills__item-title">
+            Figma
+          </div>
+          <div class="skills__item-indicators">
+            <div class="skills__item-percents">
+              80%
+            </div>
+            <progress class="skills__item-progressbar" value="80" max="100"></progress>
+          </div>
+        </li>
+        <li class="skills__item">
+          <img class="skills__item-icon" src="static/images/icon-2.png" alt="Photoshop">
+          <div class="skills__item-title">
+            Photoshop
+          </div>
+          <div class="skills__item-indicators">
+            <div class="skills__item-percents">
+              20%
+            </div>
+            <progress class="skills__item-progressbar" value=20 max="100"></progress>
+          </div>
+        </li>
+        <li class="skills__item">
+          <img class="skills__item-icon" src="static/images/icon-3.png" alt="Illustrator">
+          <div class="skills__item-title">
+            Illustrator
+          </div>
+          <div class="skills__item-indicators">
+            <div class="skills__item-percents">
+              20%
+            </div>
+            <progress class="skills__item-progressbar" value="20" max="100"></progress>
+          </div>
+        </li>
+        <li class="skills__item">
+          <img class="skills__item-icon" src="static/images/icon-4.png" alt="HTML 5">
+          <div class="skills__item-title">
+            HTML 5
+          </div>
+          <div class="skills__item-indicators">
+            <div class="skills__item-percents">
+              85%
+            </div>
+            <progress class="skills__item-progressbar" value="85" max="100"></progress>
+          </div>
+        </li>
+        <li class="skills__item">
+          <img class="skills__item-icon" src="static/images/icon-5.png" alt="CSS/SCSS">
+          <div class="skills__item-title">
+            CSS/SCSS
+          </div>
+          <div class="skills__item-indicators">
+            <div class="skills__item-percents">
+              55%
+            </div>
+            <progress class="skills__item-progressbar" value=55 max="100"></progress>
+          </div>
+        </li>
+        <li class="skills__item">
+          <img class="skills__item-icon" src="static/images/icon-6.png" alt="JavaScript">
+          <div class="skills__item-title">
+            JavaScript
+          </div>
+          <div class="skills__item-indicators">
+            <div class="skills__item-percents">
+              5%
+            </div>
+            <progress class="skills__item-progressbar" value="5" max="100"></progress>
+          </div>
+        </li>
+        <li class="skills__item">
+          <img class="skills__item-icon" src="static/images/icon-7.png" alt="React JS">
+          <div class="skills__item-title">
+            React JS
+          </div>
+          <div class="skills__item-indicators">
+            <div class="skills__item-percents">
+              0%
+            </div>
+            <progress class="skills__item-progressbar" value="0" max="100"></progress>
+          </div>
+        </li>
+        <li class="skills__item">
+          <img class="skills__item-icon" src="static/images/icon-8.png" alt="Gulp">
+          <div class="skills__item-title">
+            Gulp
+          </div>
+          <div class="skills__item-indicators">
+            <div class="skills__item-percents">
+              0%
+            </div>
+            <progress class="skills__item-progressbar" value="0" max="100"></progress>
+          </div>
+        </li>
+        <li class="skills__item">
+          <img class="skills__item-icon" src="static/images/icon-9.png" alt="Git/GitHub">
+          <div class="skills__item-title">
+            Git/GitHub
+          </div>
+          <div class="skills__item-indicators">
+            <div class="skills__item-percents">
+              15%
+            </div>
+            <progress class="skills__item-progressbar" value="15" max="100"></progress>
+          </div>
+        </li>
+        <li class="skills__item">
+          <img class="skills__item-icon" src="static/images/icon-10.png" alt="BEM">
+          <div class="skills__item-title">
+            BEM
+          </div>
+          <div class="skills__item-indicators">
+            <div class="skills__item-percents">
+              10%
+            </div>
+            <progress class="skills__item-progressbar" value="10" max="100"></progress>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="portfolio__title">
+        Portfolio
+      </h2>
+      <div class="portfilio_slider">
+        <img class="portfolio__slider-slide" src="static/images/company-infinitely.png" alt="портфолио сайт: сompany-Infinitely">
+      </div>
+      <div class="portfolio__slider-control">
+        <button class="portfolio__button-back" alt="кнопка назад">
+          <div class="portfolio__button-back_line"></div>
+        </button>
+        <div class="portfolio__switch">
+          <div class="portfolio__slider-title">
+            An example site for a construction company
+          </div>
+          <div class="portfolio__description">
+            A simple multi-page static site. The design layout was in Figma. HTML and CSS were used. The site is
+            responsive and cross-browser, but without adding interactivity via JavaScript.
+          </div>
+          <div class="portfolio__pagination">
+            <button class="portfolio__pagination-item-slider">
+            </button>
+            <button class="portfolio__pagination-item-slider portfolio__pagination-item-slider_active">
+            <button class="portfolio__pagination-item-slider">
+            </button>
+          </div>
+        </div>
+        <button class="portfolio__button-back portfolio__button-back-forward" alt="кнопка вперёд">
+        </button>
+      </div>
+    </div>
+  </section>
+  @@include('footer/index.html')
+  <div class="modal-window"> 
+    
+    <form action="" class="modal-window__form"> 
+      <button class="modal-window__button-close" type="button"> 
+        <div class="modal-window__line modal-window__line_one"></div>
+        <div class="modal-window__line modal-window__line_two"></div>
+      </button>
+      <label class="modal-window__group modal-window__group_one">
+        <div class="modal-window__title modal-window__title_one">
+          Как вас зовут?<span class="required">*</span>
+        </div>
+        <input type="text" placeholder="Иван Иванович" class="modal-window__name">
+      </label>
+      <label class="modal-window__group_two">
+        <div class="modal-window__title modal-window__title_two">
+          Тема сообщения <span class="required">*</span>
+        </div>
+        
+        <input type="text" class="modal-window__topic">
+      </label>
+      <label class="modal-window__group modal-window__group_three">
+        <div class="modal-window__title modal-window__title_three">
+          Ваш Email<span class="modal-window__required">*</span>
+        </div>
+        <input type="email" class="modal-window__mail"> 
+      </label>
+      <label class="modal-window__group modal-window__group_four">
+        <div class="modal-window__title modal-window__title_four">
+          Что вы хотите обсудить со мной?
+        </div>
+        <textarea name="comment" class="modal-window__comment"></textarea>
+      </label>
+      <label class="modal-window__group modal-window__group_five"> 
+        <input type="checkbox" class="modal-window__agreement"> 
+        <div class="modal-window__fake-input"> 
+          <div class="modal-window__check-mark"></div>
+        </div>
+        <div class="modal-window__title modal-window__title_five">
+          Нажав на кнопку, вы даете согласие на обработку ваших личных данных
+        </div>
+      </label>
+      <button class="modal-window__button-send modal-window__button-send_selected" disabled>
+        Отправить
+      </button>
+    </form>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>

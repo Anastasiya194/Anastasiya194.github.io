@@ -1,0 +1,39 @@
+.header {
+  @media (max-width: 500px) {
+   .header {
+      display: none;
+   }
+  }
+  background-color: #ffffff;
+
+
+  &__menu {
+    padding-top: 35px;
+    padding-bottom: 31px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+  }
+
+  &__link {
+    color: #828282;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+
+    &:active {
+      color: #070707;
+    }
+
+    &:hover,
+    &:focus {
+      color:#070707; 
+    }
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
