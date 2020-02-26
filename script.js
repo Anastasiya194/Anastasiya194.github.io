@@ -1,0 +1,1 @@
+var e=document.querySelector(".modal-window"),o=document.querySelector(".contacts__button-window"),t=document.querySelector(".modal-window__button-close");function n(){e.classList.toggle("modal-window_show")}o.addEventListener("click",n),t.addEventListener("click",n);
